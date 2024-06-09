@@ -20,6 +20,7 @@ if user_input and button :
 
     predicted_class_id = logits.argmax().item()
     predicted_class_label = model.config.id2label[predicted_class_id]
+    probabilities = torch.nn.functional.softmax(logits, dim=-1)[0].cpu().numpy()
     score = probabilities[predicted_class_id]
 
     # Display the results
