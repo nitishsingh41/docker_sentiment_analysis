@@ -3,6 +3,7 @@ import numpy as np
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
+st.header("Sentiment Analysis")
 with st.spinner('Loading model...'):
     tokenizer = AutoTokenizer.from_pretrained("AdamCodd/tinybert-sentiment-amazon")
     model = AutoModelForSequenceClassification.from_pretrained("AdamCodd/tinybert-sentiment-amazon")
