@@ -1,5 +1,5 @@
-## Sentiment analysis streamlit app deployment with docker
-# AWS Instance and Docker deployment commands
+# Sentiment analysis streamlit app deployment with docker
+## AWS Instance and Docker deployment commands
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 sudo apt  install docker.io 
 sudo apt install git
