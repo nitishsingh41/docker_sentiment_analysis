@@ -1,6 +1,6 @@
 # Sentiment analysis streamlit app deployment with docker
 ## AWS Instance and Docker deployment commands
-# Install necessary packages
+### Install necessary packages
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 
 ### Install Docker
