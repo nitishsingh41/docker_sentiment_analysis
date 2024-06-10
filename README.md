@@ -3,7 +3,7 @@
 # Install necessary packages
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 
-# Install Docker
+### Install Docker
 sudo apt install docker.io
 
 # Install Git
