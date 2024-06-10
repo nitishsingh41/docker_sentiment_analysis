@@ -6,14 +6,14 @@ sudo apt-get install apt-transport-https ca-certificates curl software-propertie
 ### Install Docker
 sudo apt install docker.io
 
-# Install Git
+### Install Git
 sudo apt install git
 
-# Start Docker service
+### Start Docker service
 sudo service docker start
 
-# Build Docker image
+### Build Docker image
 sudo docker build -t bert_streamlit_docker .
 
-# Run Docker container
+### Run Docker container
 sudo docker run -d -p 8501:8501 bert_streamlit_docker
